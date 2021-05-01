@@ -1317,8 +1317,8 @@
   #define MESH_EDIT_GFX_OVERLAY   // Display a graphics overlay while editing the mesh
 
   #define MESH_INSET 20             // Set Mesh bounds as an inset region of the bed
-  #define GRID_MAX_POINTS_X 3       // Don't use more than 15 points per axis, implementation limited.
-  #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
+  #define GRID_MAX_POINTS_X 4       // Don't use more than 15 points per axis, implementation limited.
+  #define GRID_MAX_POINTS_Y 3
 
   #define UBL_MESH_EDIT_MOVES_Z     // Sophisticated users prefer no movement of nozzle
   #define UBL_SAVE_ACTIVE_ON_M500   // Save the currently active mesh in the current slot on M500
